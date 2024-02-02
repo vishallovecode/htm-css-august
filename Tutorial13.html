@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+<style>
+    /* class selector */
+    .container {
+        background-color: blanchedalmond;
+        height: 200px;
+        width: 200px;
+        margin: auto;
+        border: 2px solid green;
+        padding: 10px;
+        color: red;
+        font-weight: bold;
+
+    }
+    .container:hover {
+        background-color: blue;
+        color: white;
+        border-radius: 20px;
+        border: 2px solid black;
+    }
+    .paragraph {
+        display: block;
+    }
+
+    .container:hover  .paragraph{ 
+     display:none
+      }
+
+      .para2 {
+        display: none;
+      }
+      /* sibling , all adjacent element selector */
+      .container:hover ~ .para2  {
+        display: block;
+      }
+
+      span:hover {
+        color:red
+      }
+
+      .price:before {
+        content: '$';
+      }
+      p:after{
+        content: '.';
+      }
+    input:focus {
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    /* unvisited link */
+    a:link{
+        font-size: 30px;
+    }
+
+    a:active {
+        color: black;
+    }
+    a:visited{
+        color: yellow;
+    }
+    a:hover {
+        background-color: green;
+    }
+    /* :after and :before */
+</style>
+</head>
+<html>
+    <body>
+        <!-- <div class="container">
+          <div class="paragraph">
+            Hey Hover me I will change my style
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore optio quis sint, incidunt, suscipit dolor maiores tempora ex maxime laudantium corrupti nam dolorem quo in! Qui modi dolores officia odit.
+        </div>
+        <div class="para123">Hey</div>
+        </div>
+        <span>Hey i am going to be red after hiover</span>
+        <div class="para2">
+           I will be visible when container hover12345
+        </div>
+         
+
+        <h3 class="price">4000</h3>
+        <div class="price">25000</div>
+        <h2 class="price">50000</h2>
+        <h5 class="price">55000</h5>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In pariatur quo quos totam laborum nam iure voluptas saepe aliquid optio, iusto possimus neque debitis perspiciatis consectetur dolorum laboriosam voluptate! Dicta
+        </p> -->
+    
+
+        <input  placeholder="Hey Enter your name"/>
+        <br/>
+        <hr/>
+        <a href="https://www.medicare.gov" target="_blank">Blinkit</a>
+        <br/>
+        <hr/>
+        <a href="https://www.onlinesbi.sbi/" target="_blank">Online Sbi</a>
+
+    </body>
+</html>
+
+
+ 
+
+
+<!-- hover , focus , after , before -->
+<!-- Pseudo classes and pseudo elements -->
+
+<!-- Apply css on hovering any element any section or any part -->
+

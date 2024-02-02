@@ -1,0 +1,44 @@
+
+h2:first-child {
+    color: red;
+}
+/* it will select all span element which is the second elements of its parenmt */
+span:nth-child(odd) {
+    color: blue;
+    height: 20px;
+    width: auto;
+    padding: 5px;
+   background-color: red;
+}
+span:nth-child(even) {
+    color: blue;
+    height: 20px;
+    width: auto;
+    padding: 5px;
+   background-color: black;
+}
+a[target='_blank'] {
+    background-color: black;
+}
+input[type='text'] {
+    border-radius: 20px;
+}
+/* partial matching */
+/* any element which have Chill In there title attributes */
+[title~='Chill'] {
+    background-color: red;
+}
+
+
+.image-container {
+    background-image: url('/images/checker.png');
+    color: white;
+    height: 500px;
+    width: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* background-position: */
+/* Gradient */

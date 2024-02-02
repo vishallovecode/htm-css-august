@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* universal selector */
+            * {
+                margin: 0;
+                font-size: 14px;
+            }
+            body {
+                margin: 0;
+                font-size: 14px;
+            }
+/* class selector */
+            .heading {
+                margin: 2px;
+            }
+
+/* grouping selector */
+
+   div , h1 {
+    /* this will change the content color for div and h1 tag */
+        color: red; 
+    }
+
+    /* .A{
+        padding: 5px ;
+        border: 2px solid blue;
+    }
+    .B{
+        padding: 5px ;
+        border: 2px solid blue;
+    } */
+
+    .A , .B {
+        padding: 5px ;
+        border: 2px solid blue;
+    }
+    #AA , #BB {
+        width: 150px;
+        border-radius: 12px;
+    }
+
+    /* .title {
+        width: 150px;
+        border-radius: 12px;
+        padding: 5px ;
+        border: 2px solid blue;
+    } */
+/*  can we only give grouping to the element (no) or we can use this for class selector and id selector  (YES)*/
+
+
+/* child selector */
+div > span {
+     /*  whatever css we will write here this will apply to the all span which direct child of  div*/
+     border-radius: 20px;
+     margin: 20px;
+}
+
+.inside {
+   font-size: 20px;
+   color: blue;
+}
+
+.paragraph > .inside {
+    color: pink;
+}
+
+
+/* h2 + h4 {
+    color: yellowgreen;
+} */
+
+h2 ~ h4 {
+    color: yellowgreen;
+}
+
+/* Descendant selector (space)*/
+.D  .C {
+   border-radius: 20px; 
+   background-color: blue;
+   padding: 10px;
+   margin: 10px;
+}
+/* child selector work for element selector and class selector and id selector */
+
+/* All SELECTORS ARE APPLIED FOR ALL CLASS SELECTOR , ELEMENT SELCTOR  AND ID SELCTOR */
+        </style>
+    </head>
+
+    <body>
+        <div class="A title" id="AA">Hey We are Learning selectors</div>
+        <h1 class="heading B title" id="BB">Hey i a m h1 tag</h1>
+        <span class="inside">Hey I am outside of div</span>
+
+        <div class="paragraph ">
+            <span class='inside  para1'>Hey I am inside of div</span>
+        </div>
+        <h4>I am h4 not immedaite</h4>
+        <div class="paragraph ">
+            <span class='inside para1' >Hey I am inside of div2</span>
+            <span class='inside para1' >Hey I am inside1 of div2</span>
+            <span class='inside para1' >Hey I am inside2 of div3</span>
+            <p>
+            </p>
+            <span  class='inside'>Hey I am not direct child</span>
+        </div>
+
+        <h2>Adjacent selectors</h2> 
+        <!-- h2+h4 {} using this we cannot direct h4 -->
+
+        <!--  -->
+                <!-- h2~h4 {} using this we can direct h4 -->
+        <!--  -->
+        <span>Hey</span>
+        <h4>Adjacent selectors 2</h4>
+
+        <!-- descendent selectors all child whether grand child -->
+        <!-- .D  .C {
+            border-radius: 20px; 
+            background-color: blue;
+            padding: 10px;
+            margin: 10px;
+         } -->
+        <div class="D">
+            <span class="C">hey</span>
+            <span class="C">hi</span>
+            <span class="C">Not cool</span>
+            <div style="margin-top: 30px;">
+                <span class="C">Not cool2</span>
+                <span>
+                    <span class="C">Not cool3</span>
+                </span>
+
+            </div>
+        </div>
+
+    </body>
+    
+</html>
+
+
+
+<!-- * universal selector -->
+<!-- adjacentselector (+) -->
+<!-- Child selector (>) -->
+<!-- Sibling selector all adjacent selector (~) -->
+<!-- Descendent selector (space) -->
+<!-- Element selector -->
+<!-- class selector (.) -->
+<!-- id selector (#) -->
+
+
+
+
+<!-- What is the correct syntax for selecting all paragraph elements that are 
+descendants of a div element with an ID of "example"?
+
+#example p
+
+B
+
+div p
+
+p #example
+
+D
+
+None of the above -->
+
+
+<!-- 
+Which CSS selector is used to select all paragraphs that are descendants of a div element?
+
+div p
+
+B
+
+div + p
+
+C
+
+div.p
+
+D
+
+div ~ p -->
+
+
+<!-- Which CSS selector targets elements that are direct children of a specified parent element?
+
+A
+
+.class-selector
+
+B
+
+#id-selector
+
+C
+
++adjacent sibling-selector
+
+>child-selector -->
+<!-- 
+What does the CSS universal selector (*) target when applied to a web page's styles?
+
+A
+
+All elements with the same class.
+
+B
+
+All elements with a specific ID.
+
+All elements on the web page, regardless of type.
+
+D
+
+All elements that are immediate children of a parent. -->
+
+<!-- Descendant selector  , class  , id-->
+

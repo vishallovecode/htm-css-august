@@ -1,0 +1,61 @@
+<!-- Select , Dropdown -->
+<!-- Selector -->
+<!-- Select Tag -->
+
+<!Doctype html>
+    <html>
+        <head>
+           <style>
+/* Css related to this file only can be written here */
+
+            select {
+                /* whatever css we will write inside it all select element in this file willl get this css */
+                border-radius: 10px; 
+                background-color: black;
+                color: white; 
+                font-size: 20px;
+            }
+            option {
+            font-size: 20px;
+            color: brown;
+            }
+
+           </style>
+        </head>
+        <body>
+            <!-- User visible code written here -->
+            <h2>Select Something</h2>
+            <select style="background-color: blue;">
+                <!-- by default first option will be selected in select -->
+                <!-- if we will give selected attributes to any of the option than first option will 
+                be override by the selected ones options -->
+                <option>Select Language</option>
+                <option>English</option>
+                <option  selected>Hindi</option>
+                <option>Sanskrit</option>
+            </select>
+            <select >
+                <optgroup label="Animal">
+                        <option>Cat</option>
+                        <option>Dog</option>
+                        <option>Rabbit</option>
+                </optgroup>
+
+                <optgroup label="Clothes">
+                    <option>Jeans</option>
+                    <option>Shirts</option>
+                    <option>Trousers</option>
+                </optgroup>
+            </select>
+            <select >
+                <option>HELLO</option>
+            </select>
+        </body>
+    </html>
+
+    <!-- optgroup = this is use for grouping  the options -->
+    <!-- priority of css is  -->
+    <!-- inline css > inside file css -->
+
+    <!-- height , width , font-size , background-color , color ,
+         border-radius , margin , padding , border, text-decoration , height, width -->
