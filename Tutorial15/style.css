@@ -3,6 +3,11 @@
     display: flex;
     column-gap: 10px;
     flex-direction: row; /* default  */
+    width: 800px;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .container1 {
     display:flex;
