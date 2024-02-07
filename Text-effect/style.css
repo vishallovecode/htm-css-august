@@ -30,5 +30,8 @@ p {
     border: 2px solid red;
     margin-top: 10px;
     word-wrap: break-word;
+    /* writing-mode: vertical-rl; */
+       /* writing-mode: vertical-lr; */
 }
+
 /* word wrapping */
