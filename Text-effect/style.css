@@ -1,0 +1,21 @@
+
+p {
+    width: 200px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/* p:hover {
+    overflow: visible;
+} */
+
+.container-scroll{
+    height: 200px;
+    width: 300px;
+    border: 2px solid red;
+    /* overflow: hidden; */
+        /* overflow: visible; */
+    overflow: scroll;
+    /* overflow: hidden , scroll; */
+
+}
