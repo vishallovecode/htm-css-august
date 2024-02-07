@@ -15,7 +15,20 @@ p {
     border: 2px solid red;
     /* overflow: hidden; */
         /* overflow: visible; */
-    overflow: scroll;
+        overflow-x: scroll;
+        overflow: scroll;
+        /* white-space: nowrap; */
     /* overflow: hidden , scroll; */
 
 }
+
+
+
+.container-word-wrap {
+    min-height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    margin-top: 10px;
+    word-wrap: break-word;
+}
+/* word wrapping */
