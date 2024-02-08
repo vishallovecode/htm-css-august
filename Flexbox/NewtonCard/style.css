@@ -8,6 +8,10 @@
     border-top-left-radius: 16px;
     border: 1px solid rgb(232, 234, 238);
     flex-direction: column;
+    position: relative;
+    /* position: absolute; */
+position: sticky;
+top: 30%;
  /* -webkit-box-shadow: 0px 4px 21px 8px rgba(0,0,0,0.75);
    -moz-box-shadow: 0px 4px 21px 8px rgba(0,0,0,0.75);
 box-shadow: 0px 4px 21px 8px rgba(0,0,0,0.75); */
@@ -59,7 +63,8 @@ box-shadow: 0px 4px 21px 8px rgba(0,0,0,0.75); */
 }
 
 .tag {
-    position: absolute;
+    /* position: absolute; */
+    left: 300px;
     background-color: blue;
     color: white;
 }
@@ -69,4 +74,5 @@ box-shadow: 0px 4px 21px 8px rgba(0,0,0,0.75); */
     width: 500px;
     height: 450px;
     border: 3px solid red;
+    overflow: scroll;
 }
