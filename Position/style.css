@@ -1,0 +1,16 @@
+.position-static-default{
+    border: 2px solid red;
+    left:200px;
+    top: 200px;
+    width:200px;
+}
+
+
+.position-relative{
+    border: 2px solid red;
+    left:200px;
+    top: 200px;
+    width:200px;
+    position: relative;
+}
+

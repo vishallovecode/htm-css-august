@@ -22,8 +22,6 @@ p {
 
 }
 
-
-
 .container-word-wrap {
     min-height: 100px;
     width: 100px;
@@ -31,7 +29,7 @@ p {
     margin-top: 10px;
     word-wrap: break-word;
     /* writing-mode: vertical-rl; */
-       /* writing-mode: vertical-lr; */
+    /* writing-mode: vertical-lr; */
 }
 
 /* word wrapping */
