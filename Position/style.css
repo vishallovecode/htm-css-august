@@ -1,16 +1,22 @@
-.position-static-default{
+ .position-static-default{
     border: 2px solid red;
     left:200px;
     top: 200px;
     width:200px;
 }
-
 
 .position-relative{
     border: 2px solid red;
     left:200px;
-    top: 200px;
+    top: 100px;
     width:200px;
     position: relative;
 }
 
+.box {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blue;
+}
