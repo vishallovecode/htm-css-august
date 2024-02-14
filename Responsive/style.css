@@ -125,3 +125,37 @@ h2 {
 }
 }   
 
+
+
+/* BreakPoints */
+
+/* Small Mobile devices   phones which width less or equal than 600px */
+@media only screen and (max-width:600px){
+    /* Write your css code here */
+}
+/* Small devices like tables and large phones which length is greater than 600px */
+@media only screen and (min-width:600px){
+    /* Write your css code here */
+}
+
+/* Medium devices  tablets and landscape */
+@media only screen and (min-width:768px){
+    /* Write your css code here */
+}
+
+/* Large devices laptop  pc  desktop upto 992px */
+@media only screen and (min-width:992px){
+    /* Write your css code here */
+}
+
+/* Extraa large devicess */
+@media only screen and (min-width:1200px){
+    /* Write your css code here */
+}
+
+
+@media only screen and  (orientation:landscape) {
+    .tag {
+    background-color: pink;
+    }
+}
