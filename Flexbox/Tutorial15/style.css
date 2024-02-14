@@ -31,6 +31,11 @@
     min-width: 60px;
     border-radius: 50%;
     background-color: red;
+    color: white;
+    font: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -42,7 +47,36 @@
 }
 
 
+.container3 {
+display: flex;
+justify-content: center;
+}
+
 /* jusitify-content work for alignement of the item */
 
 
 /* Justify-content:center , flex-end , flex-start  , space-between , space-evenly , space-around */
+
+.box0 {
+    background-color: blue;
+    flex-grow: 1;/*241 */
+     
+}
+
+.box2 {
+    background-color: red;
+    flex-grow: 2;/*241*2 */
+}
+
+.box3 {
+background-color: pink;
+flex-grow:3;/*241*3 */
+}
+
+.box4 {
+   background-color: brown;
+   flex-grow:4; /*241*4 */
+}
+
+/* flex: flex-grow , flex-shrink flex-basis */
+/* flex:0 1 auto */
