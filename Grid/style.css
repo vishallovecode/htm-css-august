@@ -1,0 +1,20 @@
+
+.grid {
+    display: grid;
+    /*  this will create 10 columns */
+    /* grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% */ 
+    grid-template-columns: repeat(10, 10%);
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
