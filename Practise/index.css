@@ -1,0 +1,96 @@
+.container {
+    display: grid;
+    /* Add your code below */
+    /* grid-template-columns: 1fr 1fr; */
+    /* Do not edit below this */
+    justify-items: center;
+    align-items: center;
+    height: 800px;
+    width: 600px;
+    margin: auto;
+  }
+  
+  .item {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .item-1 {
+    background-image: url('https://d3dyfaf3iutrxo.cloudfront.net/general/upload/f12f7bcbb5874fccadca939ad20673cc-image-1.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .item-2 {
+    background-image: url('https://d3dyfaf3iutrxo.cloudfront.net/general/upload/ee2f810bccb040c2bbdd4dd74c2cc44a-image-2.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .item-3 {
+    background-image: url('https://d3dyfaf3iutrxo.cloudfront.net/general/upload/6b164c3561034f40a3d323a7ef39b45e-image-3.png');
+    background-size: cover;
+    background-position: center; 
+  }
+  
+  .item-4 {
+    background-image: url('https://d3dyfaf3iutrxo.cloudfront.net/general/upload/919207b91cba4963af22a6cb5979647f.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .item-5 {
+    background-image: url('https://d3dyfaf3iutrxo.cloudfront.net/general/upload/75b1f0a5b6c04d83afd9e63fe7e3ef54-image-5.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .item-6 {
+    background-image: url('https://d3dyfaf3iutrxo.cloudfront.net/general/upload/58714def18724629a4c442e07b7f471f-image-6.png');
+    background-size: cover;
+    background-position: center;
+  }
+  /* body {
+      text-align: center;
+      background-color: bisque;
+      color:dimgray
+  } */
+
+
+  /* Diagonal Practise css */
+  .square {
+    display: grid;
+    width: 700px;
+    height: 500px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5 , 1fr);
+    background-color: red;
+    
+}
+  
+  .circle {
+    background-color: blue;
+    width: 100%;
+    align-self: center;
+    height: 100%;
+  }
+
+  .circle1 {
+        grid-column-start: 1;
+  }
+  .circle2 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+  .circle3 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+  }
+  .circle4 {
+    grid-column-start: 4;
+    grid-row-start: 4;
+  }
+  .circle5 {
+    grid-column-start: 5;
+    grid-row-start: 5;
+  }
