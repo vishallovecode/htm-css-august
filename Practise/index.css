@@ -65,9 +65,19 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5 , 1fr);
     background-color: red;
+    border: 2px solid black;
     
 }
+
+.circle {
+    background-color: blue;
+    width: 40px;
+    align-self: center;
+    height: 40px
+  }
+
   
+/*  
   .circle {
     background-color: blue;
     width: 100%;
