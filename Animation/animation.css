@@ -1,0 +1,17 @@
+.conatiner {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    background-color: red;
+    /*  use for giving name of animation which can be used as a identifier in the @keyframes */
+    animation-name: movingbackground;
+    /* this is duration how much time the animation should run */
+    animation-duration: 10s;
+}
+ 
+/* animation-duration  = animation-end-duration - animation-end-duration */
+/* animation means movement */
+ @keyframes movingbackground {
+    from {background-color: blue; top: 0;}
+    to { background-color: black; right: 0;}
+ }
