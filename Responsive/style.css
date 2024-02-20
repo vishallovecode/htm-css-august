@@ -159,3 +159,37 @@ h2 {
     background-color: pink;
     }
 }
+
+.imageContainer {
+    border: 3px solid red;
+    height: 500px;
+    padding: 20px;
+    width: 500px;
+}
+.imageContainer1 {
+    border: 3px solid red;
+    height: 500px;
+    padding: 20px;
+    width: 500px;
+}
+
+.imageContainer  img {
+    /* this means imagge will get the 100% width of its parent */
+    /* width 100px */
+        width: 100%; 
+        /* this will set the height automatically */
+        height: auto; 
+}
+
+
+
+.imageContainer1  img {
+    /* this means imagge will get the  maximum width till the size of the image width */
+    /* width 100px */
+        max-width: 100%; 
+        /* this will set the height automatically */
+        height: auto; 
+}
+
+
+

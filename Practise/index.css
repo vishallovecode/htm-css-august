@@ -104,3 +104,16 @@
     grid-column-start: 5;
     grid-row-start: 5;
   }
+
+
+  git clone https://github.com/vishallovecode/htm-css-august.git
+
+  /*  this means you are getting access of remote reposiotyr (folder) */
+  /*  i want to get access of remote reposiotory in my local machine and i want to update the code and i want 
+  add my code to the remote
+   */
+
+   /* Private repository  => this will be only accessible to the user who have the permission */  
+   /* Public repository =>any one can access this repo 
+      but there is limitation on write access*/
+
