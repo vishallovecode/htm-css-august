@@ -6,12 +6,74 @@
     /*  use for giving name of animation which can be used as a identifier in the @keyframes */
     animation-name: movingbackground;
     /* this is duration how much time the animation should run */
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+.conatiner2 {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    background-color: green;
+    /*  use for giving name of animation which can be used as a identifier in the @keyframes */
+    animation-name: movingobject;
+    animation-iteration-count: 2;
+    /* this is duration how much time the animation should run */
     animation-duration: 10s;
+    animation-timing-function: ease;
+    /* start slow , fast and slow */
+    animation-timing-function: linear;
+    /* it will have same speed start to end */
+    animation-timing-function: ease-in;
+    /* it will tell than animation should start slowly */
+    animation-timing-function: ease-out;
+      /* it will tell than animation should end slowly */
+      animation-timing-function: ease-in-out;
+      /* slow start and slow end */
+      animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
 }
  
 /* animation-duration  = animation-end-duration - animation-end-duration */
 /* animation means movement */
  @keyframes movingbackground {
-    from {background-color: blue; top: 0;}
-    to { background-color: black; right: 0;}
+    from {background-color: blue; top: 0;}  /* 0 */
+    to { background-color: black; right: 0;}  
  }
+
+ @keyframes movingobject {
+    0% {
+        background-color: pink;
+        left: 0;
+        top: 0;
+    }
+    20% {
+        background-color: blue;
+        left: 90%;
+        right: 0;
+        top: 0;
+        
+    }
+    40% {
+        background-color: red;
+        left: 90%;
+        right: 0;
+        bottom: 0;
+    }
+    60% {
+        background-color: black;
+        left: 0;
+        top: 90%;
+
+    }
+    80% {
+        background-color: yellow;
+        background-color: black;
+        left: 0;
+        top: 0%;
+    }
+    100% {
+        background-color: green;
+    }
+ }
+
+
