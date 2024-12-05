@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    
+    <style>
+        .container{
+            display: grid;
+            border: 2px solid black;
+            height: 80vh;
+            grid-template-columns: repeat(5,1fr);
+            grid-template-rows: repeat(4,1fr);
+        
+            
+            /* grid-template-columns: 200px 200px 200px 200px; */
+        }
+        .child{
+            background-color: rgb(116, 155, 170);
+            margin: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        .child:hover{
+            background-color:rgb(31, 30, 30);
+        }
+        .child1{
+            background-color: aqua;
+            grid-row-start: 2;
+            grid-row-end: 3;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Creating Two dimensional Layout</h1>
+    <div class="container">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+    
+</body>
+</html>
