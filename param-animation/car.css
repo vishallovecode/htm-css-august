@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+.car {
+    width: 150px;
+    height: 50px;
+    background-color: #3498db;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    animation: moveCar 3s linear infinite;
+  }
+
+  /* Wheels */
+  .wheel {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -15px;
+    animation: rotate 1s linear infinite;
+  }
+
+  .wheel.left {
+    left: 15px;
+  }
+
+  .wheel.right {
+    right: 15px;
+  }
+
+
+  .text {
+    position: absolute;
+    bottom: 160px; 
+    left: 0;
+    font-size: 20px;
+    color: #333;
+    opacity: 0;
+    animation: moveText 2s linear infinite;
+  }
+
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* Car movement animation */
+  @keyframes moveCar {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+
+  /* Text trail animation */
+  @keyframes moveText {
+    0% {
+      left: 0;
+      opacity: 1;
+    }
+    70% {
+        color: #3498db;
+    }
+    100% {
+      left: 100%;
+      
+    }
+  }
