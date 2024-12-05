@@ -13,8 +13,6 @@ body{
     left: 0;
     animation: moveCar 3s linear infinite;
   }
-
-  /* Wheels */
   .wheel {
     width: 30px;
     height: 30px;
@@ -54,7 +52,7 @@ body{
     }
   }
 
-  /* Car movement animation */
+
   @keyframes moveCar {
     0% {
       left: 0;
@@ -64,14 +62,14 @@ body{
     }
   }
 
-  /* Text trail animation */
+  
   @keyframes moveText {
     0% {
       left: 0;
-      opacity: 1;
+      opacity: 10;
     }
     70% {
-        color: #3498db;
+        color: #ffd900;
     }
     100% {
       left: 100%;
